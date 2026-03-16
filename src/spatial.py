@@ -1,3 +1,5 @@
+from shapely.geometry import shape
+
 class SpatialObject:
     def __init__(self, geometry):
         self.geometry = geometry
